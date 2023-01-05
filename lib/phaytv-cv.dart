@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:phaytvcv/config/app_dimens.dart';
 import 'package:phaytvcv/widget/about_me.dart';
 import 'package:phaytvcv/widget/header.dart';
@@ -26,7 +24,7 @@ class _PhayTVCVState extends State<PhayTVCV> {
                   name: "Trần Văn Phây",
                   role: "Mobile Developer",
                   email: 'phay.tran99@gmail.com',
-                  thisWeb: 'github.com/tranvanphay/my-cv.git',
+                  thisWeb: 'https://github.com/tranvanphay/my-cv.git',
                 ),
                 const SizedBox(
                   height: AppDimens.largestPadding,
